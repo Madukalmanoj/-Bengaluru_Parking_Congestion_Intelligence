@@ -8,8 +8,11 @@ HACKATHON_TITLE = "Flipkart × Bengaluru Traffic Commission Hackathon"
 TRAFFIC_AUTHORITY = "Bengaluru Traffic Police"
 
 # ── Paths ────────────────────────────────────────────────────────────────────
+import os
+
 PROJECT_ROOT = Path(__file__).resolve().parent
-CSV_PATH = r"C:\Users\Manoj.M\Downloads\jan to may police violation_anonymized791b166 (1).csv"
+# Use environment variable for Railway deployment, fallback to local path
+CSV_PATH = os.environ.get("CSV_PATH", r"C:\Users\Manoj.M\Downloads\jan to may police violation_anonymized791b166 (1).csv")
 DATA_DIR = PROJECT_ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
