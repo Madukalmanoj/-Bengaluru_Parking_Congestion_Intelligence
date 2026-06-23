@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.streamlit/
+data/raw/*.csv
+data/processed/*.parquet
+data/processed/*.duckdb
+data/processed/eda_summaries/
+.ipynb_checkpoints/
+.DS_Store
+*.log
