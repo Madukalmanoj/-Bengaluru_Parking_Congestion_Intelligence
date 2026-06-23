@@ -6,7 +6,8 @@ __pycache__/
 .pytest_cache/
 .streamlit/secrets.toml
 data/raw/*.csv
-data/processed/*.parquet
+# Uncomment below to allow processed files for Streamlit Cloud
+# data/processed/*.parquet
 data/processed/*.duckdb
 data/processed/eda_summaries/
 .ipynb_checkpoints/

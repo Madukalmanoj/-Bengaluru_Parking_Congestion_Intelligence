@@ -13,6 +13,3 @@ seaborn>=0.13.0
 # OSM road-network weighting (optional — needs internet on first run)
 osmnx>=1.9.0
 networkx>=3.2.0
-
-# Production deployment
-gunicorn>=21.2.0
