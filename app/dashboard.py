@@ -672,13 +672,24 @@ def main() -> None:
     st.sidebar.caption("Filters apply to trends, map, and export.")
 
     st.sidebar.header("Filters")
-    date_range = st.sidebar.date_input(
-        "Date range",
-        value=(options["min_date"], options["max_date"]),
-        min_value=options["min_date"],
-        max_value=options["max_date"],
-        key="date_range_filter",
-    )
+    
+    col1, col2 = st.sidebar.columns(2)
+    with col1:
+        date_from = st.date_input(
+            "From",
+            value=options["min_date"],
+            min_value=options["min_date"],
+            max_value=options["max_date"],
+            key="date_from_filter",
+        )
+    with col2:
+        date_to = st.date_input(
+            "To",
+            value=options["max_date"],
+            min_value=options["min_date"],
+            max_value=options["max_date"],
+            key="date_to_filter",
+        )
     police_stations = st.sidebar.multiselect(
         "Police station", options["stations"], default=[], key="station_filter"
     )
@@ -696,10 +707,12 @@ def main() -> None:
         key="top_n_slider",
     )
 
-    if isinstance(date_range, tuple) and len(date_range) == 2:
-        dr = date_range
-    else:
-        dr = (date_range, date_range)
+    # Ensure date_from is not after date_to
+    if date_from > date_to:
+        st.sidebar.error("⚠️ 'From' date cannot be after 'To' date")
+        date_from, date_to = date_to, date_from
+
+    dr = (date_from, date_to)
 
     filters = {
         "date_range": dr,
