@@ -1,0 +1,133 @@
+===============================================
+FIREFLY VOICE-OVER SCRIPTS
+Bengaluru Traffic Intelligence Demo Video
+===============================================
+
+Copy each scene's script below and paste into Firefly for voice generation.
+Generate each scene separately for easier video editing.
+
+===============================================
+SCENE 1: OPENING & PROBLEM STATEMENT
+Duration: 20-25 seconds
+===============================================
+
+Welcome to the Bengaluru Parking and Congestion Intelligence platform. Built for the Flipkart and Bengaluru Traffic Commission Hackathon, this AI-driven solution addresses a critical challenge: How do we move from reactive, complaint-based enforcement to targeted, impact-driven patrol strategies? 
+
+Currently, parking violations are enforced based on volume, not their actual impact on traffic flow. Our system changes that.
+
+===============================================
+SCENE 2: THE DATA
+Duration: 15-20 seconds
+===============================================
+
+We analyzed nearly 300,000 anonymized parking violations from Bengaluru Traffic Police records. Using spatial clustering and network analysis, we identified 970 violation hotspots across the city, covering all major police stations and leveraging the existing network of over 800 traffic cameras.
+
+===============================================
+SCENE 3: HOTSPOT MAP - THE INTELLIGENCE
+Duration: 30-35 seconds
+===============================================
+
+This is our intelligent hotspot map. Notice the color coding: red markers indicate high congestion impact zones, orange is medium, and blue is lower impact. 
+
+What makes this different? We don't just count violations. Our Congestion Impact Score combines six factors: violation density, location criticality like junctions and major corridors, violation severity, peak-hour concentration using Bengaluru IST rush hours, recurrence patterns, and road network flow weight using OpenStreetMap data with betweenness centrality.
+
+Each marker shows the junction name, impact score, number of violations, and most importantly, the recommended patrol window based on when violations peak at that specific location.
+
+===============================================
+SCENE 4: LEADERBOARD - PRIORITIZATION
+Duration: 20-25 seconds
+===============================================
+
+The leaderboard view ranks all hotspots by congestion impact. Each zone shows its tier, exact impact score, violation count, dominant violation type, and patrol window. 
+
+For example, rank one might be Silk Board Junction with a score of 95, requiring enforcement between 5 PM and 8 PM. This isn't just a list of where violations happen most—it's a prioritized action plan showing where enforcement will have the maximum impact on traffic flow.
+
+===============================================
+SCENE 5: TRENDS - TEMPORAL PATTERNS
+Duration: 25-30 seconds
+===============================================
+
+The trends view reveals temporal patterns across Bengaluru. We see violation spikes during specific hours and days, with clear rush-hour peaks at 9 AM and 6 PM. 
+
+The heatmap shows Wednesday through Friday evenings are particularly critical. We can drill down to specific hotspots to identify which zones are worsening over time and which are improving, helping allocate resources where problems are escalating.
+
+===============================================
+SCENE 6: PATROL SIMULATOR - WHAT-IF ANALYSIS
+Duration: 30-35 seconds
+===============================================
+
+Here's where strategy meets reality. The patrol simulator answers the question: if we deploy officers to the top N zones during specific hours, what percentage of high-impact violations will we catch?
+
+Watch this. With 10 zones during rush hours, we cover 42% of high-impact violations. Increase to 20 zones, and we jump to 67% coverage. The simulator shows exactly which zones to patrol, when to patrol them, and the expected impact. 
+
+This transforms enforcement from reactive to data-driven. Traffic police can test different scenarios before deploying resources, maximizing efficiency and impact.
+
+===============================================
+SCENE 7: OFFICER VIEW - FIELD-READY
+Duration: 15-20 seconds
+===============================================
+
+The officer view is designed for the field. It's mobile-friendly with large, scannable cards. Each shows where to go, when to patrol, and why it matters. One tap opens the location in Google Maps for instant navigation. 
+
+No complex interfaces—just clear, actionable intelligence that officers can use in real-time during patrols.
+
+===============================================
+SCENE 8: CAMERA NETWORK - INFRASTRUCTURE
+Duration: 20-25 seconds
+===============================================
+
+This solution integrates seamlessly with Bengaluru Traffic Police's existing infrastructure. We identified over 800 traffic cameras in the dataset that captured these violations. 
+
+The dashboard shows which devices are most active and, critically, which cameras already cover our top 50 high-impact hotspots. This means enforcement can leverage existing surveillance without new hardware investments. It's a prioritization layer on top of current systems.
+
+===============================================
+SCENE 9: FILTERS - CUSTOMIZATION
+Duration: 20-25 seconds
+===============================================
+
+The platform is fully customizable. Filter by date range using the separate From and To inputs. Focus on specific police stations, vehicle types, or violation categories. 
+
+Change the time window to analyze a specific month, or drill down to enforcement priorities for a single police station. Every view updates dynamically, giving stakeholders the flexibility to explore data relevant to their jurisdiction and priorities.
+
+===============================================
+SCENE 10: EXPORT - ACTIONABLE OUTPUT
+Duration: 15-20 seconds
+===============================================
+
+Finally, everything exports to a CSV file ready for field deployment. The enforcement priority list includes rank, tier, junction, score, violation details, patrol windows, and exact coordinates. 
+
+Download this, load it into patrol planning systems, or print it for morning briefings. The data is structured, actionable, and ready to use immediately.
+
+===============================================
+SCENE 11: SCORING METHODOLOGY
+Duration: 15-20 seconds
+===============================================
+
+Our Congestion Impact Score is transparent and tunable. Six weighted components: 35% violation density, 20% location criticality for junctions and major roads, 15% violation severity, 10% peak-hour concentration, 10% recurrence patterns, and 10% road network flow using OpenStreetMap betweenness centrality. 
+
+This is a proxy model—we acknowledge there's no live traffic sensor data in the current dataset. But it's honest, explainable, and provides significantly better prioritization than raw violation counts.
+
+===============================================
+SCENE 12: CLOSING - IMPACT & NEXT STEPS
+Duration: 20-25 seconds
+===============================================
+
+To summarize: we've transformed 300,000 parking violations into actionable intelligence. From detecting hotspots and quantifying their congestion impact, to simulating patrol coverage and providing field-ready enforcement lists—this is data-driven enforcement for Namma Bengaluru.
+
+The platform is live, deployable, and ready for pilot testing. Imagine traffic police using this every morning to plan their day, focusing resources where they'll have maximum impact on reducing congestion. 
+
+Thank you for watching. Let's make Bengaluru's traffic flow better, together.
+
+===============================================
+END OF VOICE-OVER SCRIPTS
+===============================================
+
+FIREFLY SETTINGS RECOMMENDATION:
+- Voice Type: Professional / Corporate
+- Gender: Your preference
+- Pace: Medium
+- Tone: Confident, informative
+- Add natural pauses between sentences
+- Export as: MP3 or WAV (high quality)
+
+Total approximate duration: 3:30 - 4:15 minutes
